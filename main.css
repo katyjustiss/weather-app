@@ -1,0 +1,60 @@
+.container {
+  background: white url("https://unsplash.imgix.net/photo-1429371527702-1bfdc0eeea7d?dpr=2&fit=crop&fm=jpg&h=700&q=75&w=1050") no-repeat;
+  background-size: 100%;
+  margin: -10px;
+  padding-bottom: 50px;
+}
+
+.row {
+  text-align: center;
+  padding: 1%;
+}
+
+.search {
+  text-align: right;
+}
+.search .zipcode {
+  display: inline-block;
+  width: 150px;
+  border-radius: 5px;
+  line-height: 2;
+  vertical-align: bottom;
+}
+.search .location, .search .zip {
+  width: 75px;
+  line-height: 1;
+  background-color: rgba(184, 184, 184, 0.8);
+  border-radius: 10px;
+  cursor: pointer;
+  cursor: hand;
+  display: inline-block;
+}
+
+.current-info {
+  text-align: center;
+  background: rgba(200, 200, 200, 0.8);
+  border-radius: 5px;
+  width: 300px;
+  /*height: */
+  margin: 1% auto;
+}
+.current-info h4 {
+  padding-top: 4%;
+}
+.current-info h3 {
+  padding-bottom: 4%;
+}
+
+table {
+  width: 90%;
+  margin: 0 auto;
+}
+
+td {
+  height: 150px;
+  width: 20%;
+  background-color: rgba(200, 200, 200, 0.8);
+  text-align: center;
+  border-radius: 5px;
+}
+
